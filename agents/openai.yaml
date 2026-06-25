@@ -1,0 +1,4 @@
+interface:
+  display_name: "1codex-bg-threads"
+  short_description: "Background threads, worktree fanout, merge-owner"
+  default_prompt: "Use $1codex-bg-threads for explicit background-thread orchestration only: pick the smallest safe mode, keep the main thread as orchestrator, require WORKER_DONE evidence, and use worktrees or merge-owner only when parallel write risk requires them."
